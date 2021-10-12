@@ -1,0 +1,326 @@
+*{
+    margin:0;
+    height: 100%;
+}
+
+body
+{
+    width: 100%;
+}
+
+.content
+{
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    height: auto;
+    width: 100%;
+}
+
+h1
+{
+    font-size: 7em;
+    font-family: 'Shadows Into Light Two', sans-serif;
+}
+
+h2
+{
+    margin-top: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 400;
+}
+
+a
+{
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn
+{
+   display: inline-block;
+   width: 200px; 
+   font-weight: bold; 
+   padding: 10px; 
+   color: #fff;
+   border: 4px solid #fff;
+   text-align: center; 
+   outline: none;
+   text-decoration: none;
+   background-color: transparent;
+   
+
+}
+
+.btn:hover, .btn:active
+{
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.banner
+{
+    background-image: url(./images/banner3.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.banner ul
+{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+}
+
+.banner ul li
+{
+    width: 150px;
+    padding: 20px;
+    padding-top: 38px;
+    padding-right: 30px;
+    text-align: center;
+    
+}
+
+.banner ul li a
+{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.banner ul li a:hover
+{
+    color: lightgrey;
+}
+
+.row
+{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 50px;
+   
+}
+.elements
+{
+    padding: 150px;
+    height: 80px;
+    margin-top: -40px;
+    
+}
+
+#third
+{
+    overflow: hidden;
+    margin-top: -210px;
+}
+
+#third figure
+{   
+    
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: slider 20s infinite;
+}
+
+#third figure img
+{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider
+{
+    0%{
+        left: 0%;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    100%{
+        left: -300%;
+    }
+    
+}
+
+#fourth
+{
+    display: inline-flex;
+    margin-top: -400px;
+    
+}
+
+.box
+{
+    background-color: #F6F6F6;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -270px;
+    text-align: justify;
+    margin-left: 220px;
+    box-shadow: 7px 7px 5px grey;
+}
+
+.button
+{
+    margin-top: -400px;
+    
+}
+
+.button1
+{
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.footer
+{
+    background-color: #26272b;
+    width: 100%;
+    height: 700px;
+    margin-top: -250px;
+    overflow: hidden;
+}
+
+.about
+{
+    padding: 20px;
+    width: 40%;
+    text-align: justify;
+}
+
+.row1
+{
+    display: inline-flex;
+    padding: 10px;
+    
+}
+
+.row2
+{
+    margin-top: -450px;
+    
+}
+
+.third
+        {
+            display: flex;
+            justify-content: center;
+            padding: 20px 10px;
+            margin-top: -540px;
+        }
+        .third ul
+        {
+            list-style: none;
+            display: block;
+        }
+        .third ul li
+        {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            padding: 20px;
+            background-color: #424242;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .third ul li i
+        {
+            color: white;
+            font-size: 38px;
+            line-height: 55px;
+            margin-left: 13px;
+            
+        }
+        .third ul li:nth-child(1):hover
+        {
+            background-color: #3b5999;
+        }
+        .third ul li:nth-child(2):hover 
+        {
+            background-color: #55acee;
+        }
+        .third ul li:nth-child(3):hover 
+        {
+            background-color: #dd4b39;
+        }
+        .third ul li:nth-child(4):hover 
+        {
+            background-color: #0077b5;
+        }
+        .third ul li:nth-child(5):hover 
+        {
+            background-color: #ea4c89;
+        }
+
+        .fourth
+        {
+            width: 100%;
+            background-color: black;
+            padding: 37px;
+            text-align: center;
+            justify-content: center;
+            margin-top: -590px;
+        }
+        .fourth p
+        {
+            position: relative;
+            font-size: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
