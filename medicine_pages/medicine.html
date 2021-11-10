@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing:border-box;
+        }
+        .name{
+            width:100%;
+            background-image: radial-gradient(circle at 0% 50%, rgb(241, 131, 103), #5dd2f0);
+            height:200px;
+            font-family: arial;
+            color:white;
+            text-align: bottom;
+
+        }
+         .Composition{
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            width: 100%;
+            height: 150px;
+          
+            }
+            .USES{
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            width: 100%;
+            height: 200px;
+            
+            }
+            .DOSE{
+             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            width: 100%;
+            height: 200px;
+            
+            }
+            .price{
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                width: 250px;
+                height: 100px;
+                border-radius: 20px;
+             }
+            .price :hover, .Composition:hover, .USES:hover, .DOSE:hover{
+                background-color:lightgreen;
+
+            }
+            button{
+                width: 200px;
+                height: 70px;
+                display: grid;
+                margin: auto;
+                font-size: 30px;
+                background-color: green;
+                color:white;
+                
+            }
+            button:hover{
+                background-color: goldenrod;
+            }
+            
+        
+           
+
+    </style>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+   
+</head>
+<body><div class="name"><h1>Medicine name</h1></div><br>
+    
+    <div class="Composition">
+        <h1>Compostion:-</h1>
+        <p>Salt Name</p>
+    </div><br>
+    <div class="USES">
+        <h1>Uses:-</h1>
+        <p>USE OF MEDS</p>
+    </div><br>
+    <div class="DOSE">
+        <h1>Doses:-</h1>
+        <p>HOW TO TAKE</p>
+    </div><br>
+    <div class="price">
+    <h1>Price</h1><br>
+    </div>
+    
+ <button class="button" id="btn" ><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add To Cart</button>
+    
+</body>
+</html>
